@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHooks", "GitHooks\GitHooks.csproj", "{48AD04E7-26FC-40BC-947F-82128B336814}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHooksInterfaces", "GitHooksInterfaces\GitHooksInterfaces.csproj", "{20ECC7AB-CF41-4CB2-B7B3-9B4243A40F99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHooksCollector", "GitHooksCollector\GitHooksCollector.csproj", "{289EA9DB-44EB-4026-9378-2F95A724931F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListsService", "ListsService\ListsService.csproj", "{717C56DD-425A-4EDB-BAA6-185CD9DE9632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitInteraction", "GitInteraction\GitInteraction.csproj", "{E04DE027-ACCC-4D40-81F9-B75574C783F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48AD04E7-26FC-40BC-947F-82128B336814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AD04E7-26FC-40BC-947F-82128B336814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AD04E7-26FC-40BC-947F-82128B336814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AD04E7-26FC-40BC-947F-82128B336814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20ECC7AB-CF41-4CB2-B7B3-9B4243A40F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20ECC7AB-CF41-4CB2-B7B3-9B4243A40F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20ECC7AB-CF41-4CB2-B7B3-9B4243A40F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20ECC7AB-CF41-4CB2-B7B3-9B4243A40F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289EA9DB-44EB-4026-9378-2F95A724931F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289EA9DB-44EB-4026-9378-2F95A724931F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289EA9DB-44EB-4026-9378-2F95A724931F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289EA9DB-44EB-4026-9378-2F95A724931F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717C56DD-425A-4EDB-BAA6-185CD9DE9632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717C56DD-425A-4EDB-BAA6-185CD9DE9632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717C56DD-425A-4EDB-BAA6-185CD9DE9632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717C56DD-425A-4EDB-BAA6-185CD9DE9632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04DE027-ACCC-4D40-81F9-B75574C783F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04DE027-ACCC-4D40-81F9-B75574C783F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04DE027-ACCC-4D40-81F9-B75574C783F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04DE027-ACCC-4D40-81F9-B75574C783F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BE1E140-9BE2-4A52-87E6-6843D4C7A408}
+	EndGlobalSection
+EndGlobal
